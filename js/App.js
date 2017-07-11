@@ -73,6 +73,7 @@ var App = function() {
 	// PUBLIC ----------------------------------------------------------------------------------------------------------------------------------------
 
 	_public._init = function() {
+		Wog.Pages._init();
 		$('#tabNavigation a').click(function (e) {
 			e.preventDefault();
 			$(this).tab('show');
